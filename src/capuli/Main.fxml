@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="capuli.MainController">
+   <children>
+      <AnchorPane prefHeight="518.0" prefWidth="653.0">
+         <children>
+            <Label layoutX="221.0" layoutY="44.0" text="Media Player">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <Button fx:id="loadBttn" layoutX="83.0" layoutY="145.0" mnemonicParsing="false" text="Load" />
+            <TextField fx:id="txtField" layoutX="185.0" layoutY="145.0" prefHeight="31.0" prefWidth="78.0" />
+            <Label layoutX="275.0" layoutY="150.0" text="Index" />
+            <Label layoutX="83.0" layoutY="249.0" text="Title:" />
+            <Label layoutX="83.0" layoutY="292.0" text="Year:" />
+            <Button fx:id="playBttn" layoutX="287.0" layoutY="380.0" mnemonicParsing="false" text="Play">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="imgSong" fitHeight="256.0" fitWidth="256.0" layoutX="356.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="_title" layoutX="136.0" layoutY="249.0" />
+            <Label fx:id="_productionYear" layoutX="136.0" layoutY="292.0" />
+            <Label fx:id="nowPlayingLbl" layoutX="14.0" layoutY="483.0" />
+            <Button fx:id="openLogBttn" layoutX="58.0" layoutY="44.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="127.0" text="Open Log">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

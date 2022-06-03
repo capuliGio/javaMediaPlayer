@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="capuli.LogWindowController">
+   <children>
+      <AnchorPane prefHeight="619.0" prefWidth="853.0">
+         <children>
+            <Button fx:id="loadBttn" layoutX="107.0" layoutY="200.0" mnemonicParsing="false" text="Load Log" />
+            <Button fx:id="clrBttn" layoutX="107.0" layoutY="294.0" mnemonicParsing="false" text="Clear Log" />
+            <Button fx:id="saveBttn" layoutX="107.0" layoutY="399.0" mnemonicParsing="false" text="Save Log" />
+            <Label layoutX="268.0" layoutY="33.0" text="Log:" />
+            <TextArea fx:id="txtArea" layoutX="268.0" layoutY="69.0" prefHeight="526.0" prefWidth="564.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
